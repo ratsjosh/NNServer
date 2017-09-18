@@ -19,7 +19,7 @@ app.get('/', homeController.index);
 app.post('/file-upload', homeController.file);
 
 
-app.listen(3000, function () {
+app.listen(3000, function() {
     console.log('%s App is running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env'));
     console.log('  Press CTRL-C to stop\n');
 })
